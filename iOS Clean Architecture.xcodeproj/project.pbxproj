@@ -21,6 +21,23 @@
 		9C2F83001DE81DD9004D56F6 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C2F82F81DE81DD9004D56F6 /* RxBlocking.framework */; };
 		9C2F83011DE81DD9004D56F6 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C2F82F91DE81DD9004D56F6 /* RxCocoa.framework */; };
 		9C2F83021DE81DD9004D56F6 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C2F82FA1DE81DD9004D56F6 /* RxSwift.framework */; };
+		9C52F6F41DFA6DC2009DCCFA /* BaseGatewayProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C52F6F31DFA6DC2009DCCFA /* BaseGatewayProtocol.swift */; };
+		9C52F6F61DFA6DFC009DCCFA /* RealmDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C52F6F51DFA6DFC009DCCFA /* RealmDriver.swift */; };
+		9C52F6F81DFA6E3F009DCCFA /* SampleGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C52F6F71DFA6E3F009DCCFA /* SampleGateway.swift */; };
+		9C52F6FA1DFA6FC8009DCCFA /* SampleEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C52F6F91DFA6FC8009DCCFA /* SampleEntity.swift */; };
+		9C52F6FC1DFA7730009DCCFA /* ValueObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C52F6FB1DFA7730009DCCFA /* ValueObjects.swift */; };
+		9C52F7011DFA7A76009DCCFA /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C52F7001DFA7A76009DCCFA /* BaseRequest.swift */; };
+		9C52F7031DFA7B4E009DCCFA /* GetSampleRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C52F7021DFA7B4E009DCCFA /* GetSampleRequest.swift */; };
+		9C52F7051DFA7B75009DCCFA /* GetSampleResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C52F7041DFA7B75009DCCFA /* GetSampleResponse.swift */; };
+		9C52F7071DFA7C29009DCCFA /* Session+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C52F7061DFA7C29009DCCFA /* Session+Extension.swift */; };
+		9C52F70B1DFA7CAD009DCCFA /* DataSourceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C52F70A1DFA7CAD009DCCFA /* DataSourceError.swift */; };
+		9C52F70D1DFA7D0A009DCCFA /* SampleRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C52F70C1DFA7D0A009DCCFA /* SampleRepository.swift */; };
+		9C52F70F1DFA7D36009DCCFA /* BaseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C52F70E1DFA7D36009DCCFA /* BaseRepository.swift */; };
+		9C52F7111DFA7DBE009DCCFA /* RepositoryError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C52F7101DFA7DBE009DCCFA /* RepositoryError.swift */; };
+		9C52F7131DFA7E67009DCCFA /* SampleUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C52F7121DFA7E67009DCCFA /* SampleUseCase.swift */; };
+		9C52F7151DFA7E74009DCCFA /* SampleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C52F7141DFA7E74009DCCFA /* SampleViewModel.swift */; };
+		9C52F7171DFA7F51009DCCFA /* SampleTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C52F7161DFA7F51009DCCFA /* SampleTranslator.swift */; };
+		9C52F7191DFA804B009DCCFA /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C52F7181DFA804B009DCCFA /* Presenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +57,23 @@
 		9C2F82F81DE81DD9004D56F6 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
 		9C2F82F91DE81DD9004D56F6 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		9C2F82FA1DE81DD9004D56F6 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		9C52F6F31DFA6DC2009DCCFA /* BaseGatewayProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseGatewayProtocol.swift; sourceTree = "<group>"; };
+		9C52F6F51DFA6DFC009DCCFA /* RealmDriver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmDriver.swift; sourceTree = "<group>"; };
+		9C52F6F71DFA6E3F009DCCFA /* SampleGateway.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleGateway.swift; sourceTree = "<group>"; };
+		9C52F6F91DFA6FC8009DCCFA /* SampleEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleEntity.swift; sourceTree = "<group>"; };
+		9C52F6FB1DFA7730009DCCFA /* ValueObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueObjects.swift; sourceTree = "<group>"; };
+		9C52F7001DFA7A76009DCCFA /* BaseRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
+		9C52F7021DFA7B4E009DCCFA /* GetSampleRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetSampleRequest.swift; sourceTree = "<group>"; };
+		9C52F7041DFA7B75009DCCFA /* GetSampleResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetSampleResponse.swift; sourceTree = "<group>"; };
+		9C52F7061DFA7C29009DCCFA /* Session+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Session+Extension.swift"; sourceTree = "<group>"; };
+		9C52F70A1DFA7CAD009DCCFA /* DataSourceError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSourceError.swift; sourceTree = "<group>"; };
+		9C52F70C1DFA7D0A009DCCFA /* SampleRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleRepository.swift; sourceTree = "<group>"; };
+		9C52F70E1DFA7D36009DCCFA /* BaseRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRepository.swift; sourceTree = "<group>"; };
+		9C52F7101DFA7DBE009DCCFA /* RepositoryError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryError.swift; sourceTree = "<group>"; };
+		9C52F7121DFA7E67009DCCFA /* SampleUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleUseCase.swift; sourceTree = "<group>"; };
+		9C52F7141DFA7E74009DCCFA /* SampleViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleViewModel.swift; sourceTree = "<group>"; };
+		9C52F7161DFA7F51009DCCFA /* SampleTranslator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleTranslator.swift; sourceTree = "<group>"; };
+		9C52F7181DFA804B009DCCFA /* Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +128,7 @@
 		9C17E17E1DE7CDCC00942296 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				9C52F7091DFA7C98009DCCFA /* Errors */,
 				9C2F82F01DE81742004D56F6 /* Presentations */,
 				9C17E17F1DE7D6CE00942296 /* DataSources */,
 				9C17E1801DE7D6E000942296 /* Domains */,
@@ -101,6 +136,7 @@
 				9C17E1821DE7D7E400942296 /* Utils */,
 				9C17E1901DE7DF9D00942296 /* AppDelegate.swift */,
 				9C17E16E1DE7CD2400942296 /* ViewController.swift */,
+				9C52F7181DFA804B009DCCFA /* Presenter.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -108,6 +144,7 @@
 		9C17E17F1DE7D6CE00942296 /* DataSources */ = {
 			isa = PBXGroup;
 			children = (
+				9C52F6FD1DFA7A2D009DCCFA /* APIs */,
 				9C17E18D1DE7DA2A00942296 /* ValueObjects */,
 				9C17E18B1DE7D91F00942296 /* Entities */,
 				9C17E18C1DE7D97A00942296 /* Drivers */,
@@ -129,6 +166,8 @@
 		9C17E1811DE7D6E500942296 /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
+				9C52F70E1DFA7D36009DCCFA /* BaseRepository.swift */,
+				9C52F70C1DFA7D0A009DCCFA /* SampleRepository.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -144,6 +183,7 @@
 		9C17E1831DE7D7FD00942296 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				9C52F7061DFA7C29009DCCFA /* Session+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -166,6 +206,7 @@
 		9C17E1861DE7D86600942296 /* UseCases */ = {
 			isa = PBXGroup;
 			children = (
+				9C52F7121DFA7E67009DCCFA /* SampleUseCase.swift */,
 			);
 			path = UseCases;
 			sourceTree = "<group>";
@@ -173,6 +214,7 @@
 		9C17E1881DE7D8A700942296 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				9C52F7141DFA7E74009DCCFA /* SampleViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -180,6 +222,7 @@
 		9C17E1891DE7D8C900942296 /* Translators */ = {
 			isa = PBXGroup;
 			children = (
+				9C52F7161DFA7F51009DCCFA /* SampleTranslator.swift */,
 			);
 			path = Translators;
 			sourceTree = "<group>";
@@ -187,6 +230,8 @@
 		9C17E18A1DE7D91200942296 /* Gateways */ = {
 			isa = PBXGroup;
 			children = (
+				9C52F6F31DFA6DC2009DCCFA /* BaseGatewayProtocol.swift */,
+				9C52F6F71DFA6E3F009DCCFA /* SampleGateway.swift */,
 			);
 			path = Gateways;
 			sourceTree = "<group>";
@@ -194,6 +239,7 @@
 		9C17E18B1DE7D91F00942296 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				9C52F6F91DFA6FC8009DCCFA /* SampleEntity.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -201,6 +247,7 @@
 		9C17E18C1DE7D97A00942296 /* Drivers */ = {
 			isa = PBXGroup;
 			children = (
+				9C52F6F51DFA6DFC009DCCFA /* RealmDriver.swift */,
 			);
 			path = Drivers;
 			sourceTree = "<group>";
@@ -208,6 +255,7 @@
 		9C17E18D1DE7DA2A00942296 /* ValueObjects */ = {
 			isa = PBXGroup;
 			children = (
+				9C52F6FB1DFA7730009DCCFA /* ValueObjects.swift */,
 			);
 			path = ValueObjects;
 			sourceTree = "<group>";
@@ -234,6 +282,41 @@
 				9C2F82FA1DE81DD9004D56F6 /* RxSwift.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C52F6FD1DFA7A2D009DCCFA /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				9C52F6FE1DFA7A34009DCCFA /* Requests */,
+				9C52F6FF1DFA7A51009DCCFA /* Responses */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		9C52F6FE1DFA7A34009DCCFA /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				9C52F7001DFA7A76009DCCFA /* BaseRequest.swift */,
+				9C52F7021DFA7B4E009DCCFA /* GetSampleRequest.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		9C52F6FF1DFA7A51009DCCFA /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				9C52F7041DFA7B75009DCCFA /* GetSampleResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		9C52F7091DFA7C98009DCCFA /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				9C52F70A1DFA7CAD009DCCFA /* DataSourceError.swift */,
+				9C52F7101DFA7DBE009DCCFA /* RepositoryError.swift */,
+			);
+			path = Errors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,8 +418,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C52F7011DFA7A76009DCCFA /* BaseRequest.swift in Sources */,
+				9C52F7191DFA804B009DCCFA /* Presenter.swift in Sources */,
 				9C17E1941DE7E1AD00942296 /* AppDelegate.swift in Sources */,
+				9C52F6FC1DFA7730009DCCFA /* ValueObjects.swift in Sources */,
+				9C52F6F61DFA6DFC009DCCFA /* RealmDriver.swift in Sources */,
+				9C52F7071DFA7C29009DCCFA /* Session+Extension.swift in Sources */,
+				9C52F7111DFA7DBE009DCCFA /* RepositoryError.swift in Sources */,
+				9C52F70D1DFA7D0A009DCCFA /* SampleRepository.swift in Sources */,
+				9C52F7151DFA7E74009DCCFA /* SampleViewModel.swift in Sources */,
+				9C52F70B1DFA7CAD009DCCFA /* DataSourceError.swift in Sources */,
+				9C52F7171DFA7F51009DCCFA /* SampleTranslator.swift in Sources */,
+				9C52F6F81DFA6E3F009DCCFA /* SampleGateway.swift in Sources */,
+				9C52F7131DFA7E67009DCCFA /* SampleUseCase.swift in Sources */,
+				9C52F70F1DFA7D36009DCCFA /* BaseRepository.swift in Sources */,
+				9C52F7051DFA7B75009DCCFA /* GetSampleResponse.swift in Sources */,
 				9C17E1951DE7E1AD00942296 /* ViewController.swift in Sources */,
+				9C52F6FA1DFA6FC8009DCCFA /* SampleEntity.swift in Sources */,
+				9C52F7031DFA7B4E009DCCFA /* GetSampleRequest.swift in Sources */,
+				9C52F6F41DFA6DC2009DCCFA /* BaseGatewayProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
