@@ -128,8 +128,9 @@
 		9C17E17E1DE7CDCC00942296 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				9C17E18B1DE7D91F00942296 /* Entities */,
 				9C52F7091DFA7C98009DCCFA /* Errors */,
-				9C2F82F01DE81742004D56F6 /* Presentations */,
+				9C2F82F01DE81742004D56F6 /* Presenters */,
 				9C17E17F1DE7D6CE00942296 /* DataSources */,
 				9C17E1801DE7D6E000942296 /* Domains */,
 				9C17E1811DE7D6E500942296 /* Repositories */,
@@ -145,8 +146,6 @@
 			isa = PBXGroup;
 			children = (
 				9C52F6FD1DFA7A2D009DCCFA /* APIs */,
-				9C17E18D1DE7DA2A00942296 /* ValueObjects */,
-				9C17E18B1DE7D91F00942296 /* Entities */,
 				9C17E18C1DE7D97A00942296 /* Drivers */,
 				9C17E18A1DE7D91200942296 /* Gateways */,
 			);
@@ -239,6 +238,7 @@
 		9C17E18B1DE7D91F00942296 /* Entities */ = {
 			isa = PBXGroup;
 			children = (
+				9C17E18D1DE7DA2A00942296 /* ValueObjects */,
 				9C52F6F91DFA6FC8009DCCFA /* SampleEntity.swift */,
 			);
 			path = Entities;
@@ -260,12 +260,13 @@
 			path = ValueObjects;
 			sourceTree = "<group>";
 		};
-		9C2F82F01DE81742004D56F6 /* Presentations */ = {
+		9C2F82F01DE81742004D56F6 /* Presenters */ = {
 			isa = PBXGroup;
 			children = (
 				9C17E1841DE7D83500942296 /* ViewControllers */,
 				9C17E1851DE7D85200942296 /* Views */,
 			);
+			name = Presenters;
 			path = Presentations;
 			sourceTree = "<group>";
 		};

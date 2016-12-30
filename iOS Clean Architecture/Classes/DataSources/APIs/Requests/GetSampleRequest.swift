@@ -19,6 +19,6 @@ struct GetSampleRequest: BaseRequest {
     }
     
     var path: String {
-        return "/users/" + id
+        return "users/" + id
     }
 }

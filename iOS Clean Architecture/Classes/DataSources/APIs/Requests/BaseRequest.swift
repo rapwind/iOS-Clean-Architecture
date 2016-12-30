@@ -16,7 +16,7 @@ extension BaseRequest {
     
     // BaseURL
     var baseURL: URL {
-        let urlString = "https://demo.sample.com/"
+        let urlString = "https://private-60ee6-sampleapi143.apiary-mock.com/"
         return URL(string: urlString)!
     }
     
