@@ -38,6 +38,7 @@
 		9C52F7151DFA7E74009DCCFA /* SampleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C52F7141DFA7E74009DCCFA /* SampleViewModel.swift */; };
 		9C52F7171DFA7F51009DCCFA /* SampleTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C52F7161DFA7F51009DCCFA /* SampleTranslator.swift */; };
 		9C52F7191DFA804B009DCCFA /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C52F7181DFA804B009DCCFA /* Presenter.swift */; };
+		9C84A88C1E250B07005D014D /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C84A88B1E250B07005D014D /* Date+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		9C52F7141DFA7E74009DCCFA /* SampleViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleViewModel.swift; sourceTree = "<group>"; };
 		9C52F7161DFA7F51009DCCFA /* SampleTranslator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleTranslator.swift; sourceTree = "<group>"; };
 		9C52F7181DFA804B009DCCFA /* Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		9C84A88B1E250B07005D014D /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 		9C17E1831DE7D7FD00942296 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				9C84A88B1E250B07005D014D /* Date+Extension.swift */,
 				9C52F7061DFA7C29009DCCFA /* Session+Extension.swift */,
 			);
 			path = Extensions;
@@ -424,6 +427,7 @@
 				9C17E1941DE7E1AD00942296 /* AppDelegate.swift in Sources */,
 				9C52F6FC1DFA7730009DCCFA /* ValueObjects.swift in Sources */,
 				9C52F6F61DFA6DFC009DCCFA /* RealmDriver.swift in Sources */,
+				9C84A88C1E250B07005D014D /* Date+Extension.swift in Sources */,
 				9C52F7071DFA7C29009DCCFA /* Session+Extension.swift in Sources */,
 				9C52F7111DFA7DBE009DCCFA /* RepositoryError.swift in Sources */,
 				9C52F70D1DFA7D0A009DCCFA /* SampleRepository.swift in Sources */,
